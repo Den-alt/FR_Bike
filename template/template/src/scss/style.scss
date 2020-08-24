@@ -62,6 +62,9 @@ $font_family: "Lato", sans-serif;
   }
 }
 //*---------------------------------------
+body.lock {
+  overflow: hidden;
+}
 .page {
   position: absolute;
   width: 100%;

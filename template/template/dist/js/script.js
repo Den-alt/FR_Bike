@@ -1,3 +1,9 @@
+$(".icon-menu").click(function (event) {
+  $(this).toggleClass("active");
+  $(".menu__body").toggleClass("active");
+  $("body").toggleClass("lock");
+});
+
 //*-------------ibg-----------------------
 function ibg() {
   let ibg = document.querySelectorAll(".ibg");
@@ -10,6 +16,7 @@ function ibg() {
 }
 ibg();
 //*---------------------------------------
+
 //?----------------slider-----------------
 
 //?---------------------------------------
